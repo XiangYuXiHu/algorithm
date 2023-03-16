@@ -39,9 +39,4 @@ public class RedPacketDistribute {
         System.out.println("第" + i + "个红包的金额:" + lastRedPacket);
         System.out.println("发出去的金额总和为:" + Math.round(redPacketDistributeSum * 100) / 100);
     }
-
-    public static double getRemainRedPacket(double redPackageAmount, double randomRedPacket) {
-        BigDecimal result = BigDecimal.valueOf(redPackageAmount).setScale(2).subtract(BigDecimal.valueOf(randomRedPacket));
-        return result.doubleValue();
-    }
 }
