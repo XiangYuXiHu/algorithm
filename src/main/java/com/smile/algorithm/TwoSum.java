@@ -1,4 +1,4 @@
-package com.smile;
+package com.smile.algorithm;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -18,23 +18,6 @@ import java.util.Map;
  * @date 2021.09.19 20:46
  */
 public class TwoSum {
-
-//    public static int[] twoSum(int[] nums, int target) {
-//        if (null == nums && nums.length == 0) {
-//            return null;
-//        }
-//
-//        Map<Integer, Integer> valueAndPos = new HashMap<>();
-//        for (int i = 0; i < nums.length; i++) {
-//            int remainValue = target - nums[i];
-//            if (valueAndPos.get(remainValue) != null) {
-//                return new int[]{i, valueAndPos.get(remainValue)};
-//            } else {
-//                valueAndPos.put(nums[i], i);
-//            }
-//        }
-//        return null;
-//    }
 
     public static void main(String[] args) {
         int[] num = new int[]{2, 7, 11, 15};
